@@ -3,39 +3,46 @@
     {
       "name": "Thinh",
       "phone": "0975998442",
-      "id": "4pFqZC9QC"
+      "id": "4pFqZC9QC",
+      "email": "thinhgacon@gmail.com",
+      "password": "e10adc3949ba59abbe56e057f20f883e",
+      "avatar": "2a4d3c257de494c4c6fbab347edacfbd"
     },
     {
       "name": "Châu",
       "phone": "0979049061",
-      "id": "bYBDLTUce"
+      "id": "bYBDLTUce",
+      "avatar": "2a4d3c257de494c4c6fbab347edacfbd"
     },
     {
       "name": "Quang",
       "phone": "0975845000",
-      "id": "OXaejggA2"
+      "id": "OXaejggA2",
+      "avatar": "2a4d3c257de494c4c6fbab347edacfbd"
     },
     {
       "name": "Hoài",
       "phone": "0978784579",
-      "id": "JwXtbk1iz"
+      "id": "JwXtbk1iz",
+      "avatar": "2a4d3c257de494c4c6fbab347edacfbd"
     },
     {
       "name": "Nam",
       "phone": "0989898898",
-      "id": "McLCmtJlv"
+      "id": "McLCmtJlv",
+      "avatar": "2a4d3c257de494c4c6fbab347edacfbd"
     },
     {
       "name": "Bình",
       "phone": "0988885885",
-      "id": "AxF6mVjTW"
+      "id": "AxF6mVjTW",
+      "avatar": "2a4d3c257de494c4c6fbab347edacfbd"
     },
     {
       "name": "Goku",
-      "phone": "25251325",
-      "id": "A-JupodkD",
-      "email": "thinhgacon@gmail.com",
-      "password": "e10adc3949ba59abbe56e057f20f883e"
+      "phone": "0988888888",
+      "id": "1rgTHKpf7",
+      "avatar": "2a4d3c257de494c4c6fbab347edacfbd"
     }
   ],
   "products": [

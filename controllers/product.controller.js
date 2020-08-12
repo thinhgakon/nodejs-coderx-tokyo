@@ -8,8 +8,6 @@ module.exports.index = function(req, res){
     let itemsPerPage = 8;
     let numberPages = Math.floor(numberAllProducts / itemsPerPage) + 1;
 
-    console.log(numberAllProducts + '' + numberPages);
-
     let start = (page -1) * itemsPerPage;
     let end = page * itemsPerPage;
 

@@ -6,11 +6,14 @@ block content
       .alert.alert-danger(role='alert')
         span= error
 
-  form(action="/users/create", method="POST")
+  form(action="/users/create", method="POST", enctype="multipart/form-data")
     .form-group
-      label Name
-      input.form-control(type="text", name="name", value=values? values.name : "")
+      label(for="name") Name
+      input#name.form-control(type="text", name="name", value=values? values.name : "")
     .form-group
-      label Phone
-      input.form-control(type="text", name="phone", value=values? values.phone : "")  
+      label(for="phone") Phone
+      input#phone.form-control(type="text", name="phone", value=values? values.phone : "") 
+    .form-group
+      label(for="avatar") Avatar
+      input#avatar.form-control-file(type="file", name="avatar")  
     button.btn.btn-primary Create

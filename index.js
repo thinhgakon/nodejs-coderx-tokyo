@@ -15,7 +15,6 @@ app.use(express.static('public'));
 //signed cookie
 app.use(cookieParser('NXTNMH'));
 
-
 //user route
 var userRoute = require('./routes/user.route');
 var authRoute = require('./routes/auth.route');

@@ -35,6 +35,7 @@ module.exports.get = function (request, response) {
 
 module.exports.postCreate = function (request, response) {
     request.body.id = shortid.generate();
+    request.body.avatar = request.file.filename;
     db.get('users')
         .push(request.body)
         .write();
