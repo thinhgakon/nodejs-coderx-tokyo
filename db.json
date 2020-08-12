@@ -646,5 +646,18 @@
       "image": "https://loremflickr.com/320/240",
       "description": "curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem"
     }
+  ],
+  "sessions": [
+    {
+      "id": "MhHr54n8s",
+      "cart": {
+        "aa9b9970-4137-41f4-84e7-0787b82da3b7": 7,
+        "17a49059-ea60-45c1-af56-0487c38a18ba": 2,
+        "971b1f61-a690-475f-8e36-1d8247dfe73c": 1,
+        "e389f895-b8cd-45e4-9e35-5c94b42a0a46": 2,
+        "12e819ce-2412-44e6-ac0f-18da794d0dbe": 2,
+        "c1597146-ac96-489b-bea8-8971ee41fb1f": 1
+      }
+    }
   ]
 }

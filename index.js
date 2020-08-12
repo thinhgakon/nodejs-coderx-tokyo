@@ -19,8 +19,11 @@ app.use(cookieParser('NXTNMH'));
 var userRoute = require('./routes/user.route');
 var authRoute = require('./routes/auth.route');
 var productRoute = require('./routes/product.route');
+var cartRoute = require('./routes/cart.route');
 
 let authMiddleware = require('./middlewares/auth.middleware');
+let sessionMiddleware = require('./middlewares/session.middleware');
+app.use(sessionMiddleware.setSessionId);
 
 app.get('/', function (request, response) {
   response.render('index', {
@@ -31,6 +34,7 @@ app.get('/', function (request, response) {
 app.use('/users', authMiddleware.requireAuth, userRoute);
 app.use('/auth', authRoute);
 app.use('/products', productRoute);
+app.use('/cart', cartRoute);
 
 app.listen(port, function () {
   console.log(`Example app listening on port ${port}`)
